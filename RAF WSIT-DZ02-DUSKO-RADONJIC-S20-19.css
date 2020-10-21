@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+#red{
+    color: red;
+    background-color: lightgreen;
+}
+.red:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 20px;
+    
+  }
+.forma{
+    border: 2px solid green;
+    width: 500px;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ime{
+    background-color: lightblue;
+    text-align: center;
+}
+.Prezime{
+    background-color: yellow;
+    text-align: right;
+}
+.jmbg{
+    background-color: lightgreen;
+    text-align: left;
+}
+.center{
+    margin-left: 125px;
+}
+label{
+    float: left;
+    width: 18%;
+    text-align: right;
+}
+.dugme{
+    margin-left: 60px;
+    width: 100px;
+}
